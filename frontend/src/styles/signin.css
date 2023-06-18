@@ -1,0 +1,11 @@
+.signincontainer{
+    display: inline-block;
+    border: 5px solid black;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    padding-left: 40px;
+    padding-bottom: 40px;
+    padding-right: 40px;
+    font-family:  'Bungee Spice';
+}

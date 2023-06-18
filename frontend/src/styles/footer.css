@@ -1,0 +1,11 @@
+.footer{
+    border: 1px solid rgb(242, 0, 255);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Bungee Spice';
+    background-color: rgb(0, 0, 0);
+    margin-top: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+}

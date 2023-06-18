@@ -1,0 +1,85 @@
+
+
+@keyframes blink {
+    0% {
+      box-shadow: 0 0 25px #f3f3f3;
+    }
+    50% {
+      box-shadow: 0 0 20px #f2f2f2;
+    }
+    100% {
+      box-shadow: 0 0 25px #0000ff;
+    }
+  }
+
+
+
+  
+   .header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgb(0, 0, 0);
+    margin-left: 8px;
+    margin-top: 8px;
+    margin-right: 8px;
+    text-align: center;
+    font-family: 'Bungee Spice';
+    font-weight: bolder;
+    position: relative;
+    padding: 2px;
+    background-color: #000000;
+    border: 4px solid #fafcff;
+    flex-wrap: wrap;
+
+    padding: 10px;
+    animation: blink 0.5s infinite;
+  }
+  
+  .header-image {
+    height: 100px;
+    /* width: auto; */
+    /* padding-left: 1px; */
+    border: 5px solid rgb(255, 255, 255);
+  }
+  
+  .h1-bg {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 5px;
+    margin-left: 300px;
+    margin-right: 350px;
+    /* flex-direction: row; */
+    /* flex-wrap: wrap; */
+    /* padding-left: 300px;
+    padding-right: 300px; */
+  }
+
+ .header1{
+    width: 99%;
+    border: 3px solid rgb(0, 0, 0);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 6px;
+    margin-left: 5px;
+    font-family: 'Bungee Spice';
+  
+
+    background-color: #000000;
+
+ }
+ .text1{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding-left: 220px;
+ }
+ .signinbtn{
+  padding-right: 50px;
+ }
+ .signupbtn{
+  padding-right: 20px;
+ }
+.nav-link {
+  text-decoration: none;
+}

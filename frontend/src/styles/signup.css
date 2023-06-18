@@ -1,0 +1,12 @@
+.signupcontainer{
+    display: inline-block;
+    border: 5px solid black;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-left: 40px;
+    padding-bottom: 5px;
+    padding-right: 40px;
+    font-family:  'Bungee Spice';
+}
